@@ -1,0 +1,127 @@
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header a {
+    padding: 0 20px;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+/* sidbar start */
+.sidebar,
+.desktopHome {
+    padding: 30px 0;
+}
+
+.sidebar {
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #000;
+}
+
+.sidebar_inner img,
+.sidebar_inner li {
+    margin: 0 20px;
+}
+
+.sidebar_inner ul {
+    padding: 40px 0;
+
+}
+
+.sidebar_inner ul li {
+    list-style: none;
+    background-color: rgba(40, 40, 40, 1);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+}
+
+.sidebar_inner img {
+    width: 200px;
+}
+
+.sidebar_inner ul li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* sidbar end */
+
+/* desktop start */
+.desktopHome {
+    width: 100%;
+}
+
+.desktopHome {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dashboard .arrow_btn {
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard .arrow_btn:focus {
+    outline: none;
+    border-color: #646cff;
+}
+
+.routeViewAll {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.routing_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dbCardItem {
+    padding: 20px;
+    background-color: rgba(24, 24, 24, 1);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.dbCardItem:hover {
+    background-color: rgba(40, 40, 40, 1);
+}
+
+.desk_body h2 {
+    color: #FFF;
+    padding: 20px 0;
+}
+
+.dbCardItem h5 {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.dbCardItem p {
+    margin: 0;
+    color: #ccccccb0;
+}
+
+/* desktop end */
