@@ -28,7 +28,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   justify-content: center;
-  overflow: hidden;
+  overflow-x: hidden;
   background-color: rgba(18, 18, 18, 1);
 }
 

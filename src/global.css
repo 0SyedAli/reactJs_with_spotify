@@ -19,10 +19,13 @@ header a {
 }
 
 .sidebar {
-    width: 30%;
+    width: 25%;
     padding-left: 10px;
     padding-right: 10px;
     background-color: #000;
+    position: fixed;
+    height: 100%;
+    left: 0;
 }
 
 .sidebar_inner img,
@@ -60,11 +63,10 @@ header a {
 /* desktop start */
 .desktopHome {
     width: 100%;
-}
-
-.desktopHome {
     padding-left: 30px;
     padding-right: 30px;
+    margin-left: 25%;
+    overflow-y: scroll;
 }
 
 .dashboard .arrow_btn {
